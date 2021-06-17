@@ -6,7 +6,13 @@
 <h2>Usage 👨‍🏭</h2>
 
 
-<p>This is a simple budget tracker application that did not have a deployed URL. After recieving the application, I turned this into a Progressive Web Application (PWA), and created offline functionality and data persistence. For more on PWA's google has a great training <a href="https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures">documentation</a>.</p>
+<p>This is a simple budget tracker application that did not have a deployed URL. After recieving the application, I turned this into a Progressive Web Application (PWA), and created offline functionality and data persistence. For more on PWA's google has a great training <a href="https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures">documentation</a>. Below you will find an image of the application.</p>
+
+<p>&nbsp</p>
+
+![Image of the deployed application](public/assets/images/budget_tracker.jpg)
+
+<p>&nbsp</p>
 
 
 <p>When you go to the deployed application page, input a transaction title and create an expense or a deposit. If you have no internet connection, the data will still persist. The service worker allows for interactivity with the page with no loss of functionality or style. You can visit Web Fundamentals for more information on <a href="https://developers.google.com/web/fundamentals/primers/service-workers">Service Workers</a> (article by: <a href="https://developers.google.com/web/resources/contributors/mattgaunt">Matt Gaunt</a>). The data is stored and then delivered to the MongoDB database when online capabilities return through a Web Storage API technology <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexDB</a>.<p>
